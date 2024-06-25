@@ -97,6 +97,7 @@ def get_item_by_id_query(ids):
             items (ids: %s) {
                 id,
                 name,
+                state,
                 group {
                     id
                     title
@@ -237,6 +238,7 @@ def update_multiple_column_values_query(board_id, item_id, column_values, create
             ) {
                 id
                 name
+                state
                 column_values {
                   id
                   text
