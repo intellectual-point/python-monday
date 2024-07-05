@@ -8,6 +8,7 @@ mypy = "*"
 twine = "*"
 pylint = "*"
 pytest = "*"
+requests="*"
 
 [packages]
 
